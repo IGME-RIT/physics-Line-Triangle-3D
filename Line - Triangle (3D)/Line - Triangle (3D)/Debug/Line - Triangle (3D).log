@@ -1,0 +1,16 @@
+﻿Build started 6/1/2016 09:42:16.
+     1>Project "C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Line - Triangle (3D)\Line - Triangle (3D).vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Line - Triangle (3D)\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\luna\programming projects\igmtutorial\physics\line - triangle (3d)\line - triangle (3d)\main.cpp(565): warning C4316: 'Mesh' : object allocated on the heap may not be aligned 16
+     1>c:\users\luna\programming projects\igmtutorial\physics\line - triangle (3d)\line - triangle (3d)\main.cpp(582): warning C4316: 'Mesh' : object allocated on the heap may not be aligned 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Debug\Line - Triangle (3D).exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Line - Triangle (3D)\\lib" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Debug\Line - Triangle (3D).pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Debug\Line - Triangle (3D).lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Line - Triangle (3D).vcxproj -> C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Debug\Line - Triangle (3D).exe
+     1>Done Building Project "C:\Users\Luna\Programming Projects\IGMTutorial\Physics\Line - Triangle (3D)\Line - Triangle (3D)\Line - Triangle (3D).vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54
